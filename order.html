@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 网站标题  一般30字左右 -->
+        <title>sweet-love订单页</title>
+        <!-- 网站说明 -->
+        <meta name="description" content="">
+        <!-- 网站搜索关键字 -->
+        <meta name="keywords" content="">
+        <!-- 引入加载图标 -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <!-- 引入初始化样式文件 -->
+        <link rel="stylesheet" href="css/base.css">
+        <!-- 引入公共样式表 -->
+        <link rel="stylesheet" href="css/common.css">
+        <!-- 引入订单页专有样式表 -->
+        <link rel="stylesheet" href="css/order.css">
+        <!-- 引入订单页专有js文件 -->
+        <script src="js/order.js"></script>
+    </head>
+    <body>
+        <!-- 快捷导航栏-->
+        <section class="shortcut w">
+            <div class="fl">我的甜品 你的爱~</div>
+            <div class="fr">
+                <a href="login.html" class="denglu">请登录</a> &nbsp;
+                <a href="register.html" class="register">注册</a>|
+                <a href="order.html" class="order" id="style-red">我的订单</a>|
+                <a href="shopcar.html" class="shopcar">购物车</a>
+            </div>
+        </section>
+        <!--头部-->
+        <header class="w">
+            <!-- logo模块  符合SEO优化-->
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="甜品食光"></a>
+                </h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html" >首页</a></li>
+                    <li><a href="western.html">西式甜品</a></li>
+                    <li><a href="HongKong.html">港式甜品</a></li>
+                    <li><a href="#">中式甜品</a></li>
+                    <li><a href="#">日式甜品</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="提拉米苏">
+                <span></span>
+            </div>
+        </header>
+
+        <div class="order_box w">
+            <div class="user_set">
+                <img src="images/avatar.jpg" alt="">
+                <p>晨曦夏夜</p>
+                <a href="javascript:;">切换账号</a>
+                <hr>
+                <ul>
+                    <li><a href="useinfo.html">个人信息</a></li>
+                    <li ><a href="order.html" class="style_red">我的订单</a></li>
+                    <li><a href="javascript:;">我的钱包</a></li>
+                    <li><a href="javascript:;">优惠特权</a></li>
+                    <li><a href="javascript:;">地址管理</a></li>
+                    <li><a href="javascript:;">账号设置</a></li>
+                    <li><a href="javascript:;">我的足迹</a></li>
+                    <li><a href="javascript:;">收藏夹</a></li>
+                </ul>
+            </div>
+            <div class="order_list">
+
+                <ul class="order-l-title">
+                    <li class="style_red">全部订单</li>
+                    <li>待付款</li>
+                    <li>已发货</li>
+                    <li>待评价</li>
+                    <li>售后服务</li>
+                </ul>
+
+                <div class="all_order">
+                    <ul>
+                        <li>
+                            <div class="order_manage">
+                                <label>
+                                    <input type="checkbox"> &nbsp;&nbsp;2017-9-22  &nbsp;&nbsp;  订单号：124534645747
+                                </label>
+                                <img src="./images/删除.png" alt="">
+                            </div>
+                            <div class="order_detail">
+                                <img src="./images/order-img/order_pic_03.jpg" alt="">
+                                <p>
+                                    <span class="con_margin">创意甜橙味蛋糕</span>
+                                    <span>净含量：250克</span>
+                                </p>
+                                <p>  ¥29.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x1 </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">联系我们</a>
+                                    <a href="javascript:;">申请售后</a>
+                                </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">订单详情</a>
+                                    <a href="javascript:;">查看物流</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="order_manage">
+                                <label>
+                                    <input type="checkbox"> &nbsp;&nbsp;2017-9-22  &nbsp;&nbsp;  订单号：124534645747
+                                </label>
+                                <img src="./images/删除.png" alt="">
+                            </div>
+                            <div class="order_detail">
+                                <img src="./images/order-img/order_pic_07.jpg" alt="">
+                                <p>
+                                    <span class="con_margin">创意心形蛋糕</span>
+                                    <span>净含量：250克</span>
+                                </p>
+                                <p>  ¥59.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x1 </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">联系我们</a>
+                                    <a href="javascript:;">申请售后</a>
+                                </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">订单详情</a>
+                                    <a href="javascript:;">查看物流</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="order_manage">
+                                <label>
+                                    <input type="checkbox"> &nbsp;&nbsp;2017-9-22  &nbsp;&nbsp;  订单号：124534645747
+                                </label>
+                                <img src="./images/删除.png" alt="">
+                            </div>
+                            <div class="order_detail">
+                                <img src="./images/order-img/order_pic_11.jpg" alt="">
+                                <p>
+                                    <span class="con_margin">蝴蝶粉蛋</span>
+                                    <span>净含量：250克</span>
+                                </p>
+                                <p>  ¥139.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x1 </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">联系我们</a>
+                                    <a href="javascript:;">申请售后</a>
+                                </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">订单详情</a>
+                                    <a href="javascript:;">查看物流</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="order_manage">
+                                <label>
+                                    <input type="checkbox"> &nbsp;&nbsp;2017-9-22  &nbsp;&nbsp;  订单号：124534645747
+                                </label>
+                                <img src="./images/删除.png" alt="">
+                            </div>
+                            <div class="order_detail">
+                                <img src="./images/order-img/order_pic_14.jpg" alt="">
+                                <p>
+                                    <span class="con_margin">自然系列蛋糕</span>
+                                    <span>净含量：250克</span>
+                                </p>
+                                <p>  ¥89.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x1 </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">联系我们</a>
+                                    <a href="javascript:;">申请售后</a>
+                                </p>
+                                <p>
+                                    <a href="javascript:;" class="con_margin">订单详情</a>
+                                    <a href="javascript:;">查看物流</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="order_pages">
+                        <ul>
+                            <li> < </li>
+                            <li class="page_style">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>...</li>
+                            <li>10</li>
+                            <li> > </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="no_order">暂无未付款订单</div>
+                <div class="no_order">暂无已发货订单</div>
+                <div class="no_order">暂无未评价订单</div>
+                <div class="no_order">无订单</div>
+            </div>
+        </div>
+
+
+        <!--尾部-->
+        <footer class="w">
+            <div class="aim">
+                <div class="aim1">
+                    <span></span>
+                    <div class="aim-con">
+                        <h1>18小时低温</h1>
+                        <p>全程冷链配送</p>
+                    </div>
+                </div>
+                <div class="aim2">
+                    <span></span>
+                    <div class="aim-con">
+                        <h1>18小时低温</h1>
+                        <p>全程冷链配送</p>
+                    </div>
+                </div>
+                <div class="aim3">
+                    <span></span>
+                    <div class="aim-con">
+                        <h1>18小时低温</h1>
+                        <p>全程冷链配送</p>
+                    </div>
+                </div>
+            </div>
+            <div class="serve">
+                <div class="serve_icon">
+                    <span></span>
+                    <p>www.sweetlove.com</p>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="serve_guide">
+                    <dl>
+                        <dt>关于甜爱</dt>
+                        <dd>媒体报道</dd>
+                        <dd>知识产权</dd>
+                        <dd>加入我们</dd>
+                    </dl>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd>购物指南</dd>
+                        <dd>订单管理</dd>
+                        <dd>常见问题</dd>
+                    </dl>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd>服务保障</dd>
+                        <dd>用户协议</dd>
+                        <dd>售后服务</dd>
+                    </dl>
+                    <dl>
+                        <dt>商业合作</dt>
+                        <dd>集合采购</dd>
+                        <dd>品牌合作</dd>
+                        <dd>媒体合作</dd>
+                    </dl>
+                </div>
+                <div class="serve_contact">
+                    <p>联系我们</p>
+                    <p>400-8888-000</p>
+                    <p>24小时服务热线</p>
+                    <a href="#">在线客服</a>
+                </div>
+            </div>
+            <p>Copyright © 2016 .All Rights Reserved. 北京甜爱食品有限公司</p>
+        </footer>
+    </body>
+</html>

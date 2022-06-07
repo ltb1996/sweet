@@ -1,0 +1,105 @@
+/*logo模块修改*/
+.logo h1{
+    width: 500px;
+}
+.logo h1 p{
+    display: inline-block;
+    line-height: 90px;
+    font-size: 18px;
+    font-weight: normal;
+    height: 90px;
+}
+.logo h1 a{
+    margin-right: 20px;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+
+/*注册模块*/
+.regis_way{
+    overflow: hidden;
+}
+.regis_way ul li{
+    float: left;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.regis_border{
+    border-bottom: 3px solid rgb(252, 0, 0);
+}
+.regis{
+    height: 585px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.regis form{
+    width: 440px;
+    height: 100%;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.regis form .regis_phone li{
+    height: 37px;
+    margin-bottom: 30px;
+}
+.regis form .regis_phone li input{
+    width: 265px;
+    height: 35px;
+    border: 1px solid rgb(181, 181, 181);
+    padding-left: 10px;
+}
+.regis form .regis_phone li .ma{
+    width: 125px;
+}
+.regis form .regis_phone li a{
+    text-decoration: underline;
+    color: rgb(18, 130, 178);
+}
+.regis form .regis_phone li p{
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+    margin-right: 20px;
+    color: black;
+}
+.regis form .regis_phone li button{
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(229, 229, 229);
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.regis from .regis_mail {
+
+}
+
+
+.regis form >p{
+    text-align: center;
+}
+.regis form >p a{
+    color: rgb(18, 130, 178);
+}
+.regis form >button{
+    width: 235px;
+    height: 50px;
+    background-color: rgb(250, 0, 1);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0 0 95px;
+}
+
+

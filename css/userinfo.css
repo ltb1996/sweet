@@ -1,0 +1,95 @@
+/* 主体 用户 样式 */
+
+.info-wrapper {
+    display: flex;
+    height: 650px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.info-list {
+    width: 300px;
+    height: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.user-info {
+    height: 300px;
+}
+
+.user-info img {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.user-info .username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.user-info .btn,
+.pre-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 45px;
+}
+
+.info li:not(:first-child) {
+    margin-top: 15px;
+}
+
+.info-content {
+    flex-grow: 1;
+    height: 100%;
+    border-top: 1px solid #ccc;
+}
+
+.up-content {
+    overflow: hidden;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.up-content .item {
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.up-content .inner-item {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.up-content label {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.tab {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: red;
+}
+
+.pre-btn {
+    background-color: #fa0001;
+    color: white;
+    margin-left: 400px;
+}

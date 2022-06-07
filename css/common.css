@@ -1,0 +1,242 @@
+
+/* 声明字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/*版心*/
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family:"微软雅黑 Light",serif;
+}
+#style-red{
+    color: rgb(248, 52, 62);
+}
+
+/*快捷导航栏*/
+.shortcut{
+    color: rgb(174, 174, 174);
+    overflow: hidden;
+}
+.shortcut a{
+    color: rgb(174, 174, 174);
+}
+.shortcut a:hover{
+    color: rgb(251, 0, 0);
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.register , .order{
+    width: 120px;
+    margin-right: 8px;
+}
+.shopcar{
+    display: inline-block;
+    width: 100px;
+}
+.shopcar::before{
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+
+/*头部板块*/
+header{
+    padding-top: 20px;
+    height: 120px;
+    /*background-color: pink;*/
+}
+header > div{
+    float: left;
+}
+
+.logo{
+    overflow: hidden;
+}
+.logo h1 a{
+    width: 94px;
+    height: 90px;
+    display: inline-block;
+    background: url("../images/sprite.png") -22px 0;
+    margin-right: 180px;
+    float: left;
+}
+.nav ul li{
+    float: left;
+    margin-right: 40px;
+    line-height: 80px;
+}
+.nav ul li a{
+    font-size: 16px;
+    color: rgb(84, 84, 84);
+}
+.nav ul li a:hover{
+    color: rgb(248, 52, 62);
+}
+.search{
+    position: relative;
+}
+.search input{
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    margin: 10px 0 0 80px;
+    border: 1px solid rgb(248, 52, 62);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.search span{
+    position: absolute;
+    top: 16px;
+    right: -335px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/sprite.png") -115px 0;
+}
+
+#style_red{
+    color: rgb(248, 93, 99);
+}
+
+
+
+
+
+
+
+
+
+/*尾部样式*/
+footer .aim{
+    height: 170px;
+    background-color: rgb(238, 238, 238);
+    padding: 50px 0;
+}
+.aim > div{
+    float: left;
+    width: 400px;
+    height: 100%;
+    padding-left: 70px;
+}
+.aim span{
+    display: inline-block;
+    float: left;
+}
+.aim h1{
+    color: rgb(248, 52, 62);
+}
+.aim p{
+    font-size: 18px;
+}
+.aim-con{
+    width: 180px;
+    height: 65px;
+    display: inline-block;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid rgb(248, 52, 62);
+    text-align: left;
+}
+.aim1 span{
+    width: 65px;
+    height: 65px;
+    background: url("../images/sprite.png") -351px 0;
+}
+.aim2 span{
+    width: 68px;
+    height: 70px;
+    background: url("../images/sprite.png") -417px 0;
+}
+.aim3 span{
+    width: 61px;
+    height: 71px;
+    background: url("../images/sprite.png") -485px 0;
+}
+.serve{
+    width: 100%;
+    height: 240px;
+    padding: 50px 0;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+.serve > div{
+    float: left;
+}
+.serve_icon{
+    width: 340px;
+    height: 100%;
+    border-right: 1px solid rgb(181, 181, 181);
+    text-align: center;
+}
+.serve_icon p{
+    line-height: 40px;
+}
+.serve_icon span{
+    display: inline-block;
+}
+.serve_icon span:nth-of-type(1){
+    width: 94px;
+    height: 70px;
+    background: url("../images/sprite.png") -22px 0;
+}
+.serve_icon span:nth-of-type(2){
+    width: 40px;
+    height: 40px;
+    background: url("../images/sprite.png") -805px 0;
+    margin-right: 30px;
+}
+.serve_icon span:nth-of-type(3){
+    width: 45px;
+    height: 40px;
+    background: url("../images/sprite.png") -755px 0;
+}
+.serve_guide{
+    padding-left: 52px;
+    width: 540px;
+    border-right: 1px solid rgb(181, 181, 181);
+}
+.serve_guide dl{
+    float: left;
+    margin: 0 30px;
+}
+.serve_guide dl dt{
+    height: 30px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+}
+.serve_guide dl dd{
+    line-height: 40px;
+}
+.serve_contact {
+    width: 320px;
+    text-align: center;
+}
+.serve_contact p:nth-of-type(2){
+    font-size: 18px;
+    line-height: 70px;
+}
+.serve_contact a{
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+footer > p{
+    text-align: center;
+    margin-top: 30px;
+}

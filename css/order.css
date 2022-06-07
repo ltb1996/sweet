@@ -1,0 +1,150 @@
+
+.order_box{
+    overflow: hidden;
+}
+
+
+/*用户设置板块*/
+.user_set {
+    float: left;
+    width: 265px;
+    height: 666px;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 40px 20px;
+    text-align: center;
+}
+.user_set >img{
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+}
+.user_set >p{
+    font-size: 16px;
+    line-height: 60px;
+}
+.user_set >a{
+    width: 104px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 10px;
+}
+.user_set ul{
+    margin-top: 30px;
+}
+.user_set ul li{
+    line-height: 40px;
+}
+.style_red{
+    color: rgb(247, 71, 73);
+}
+
+
+/*订单详情*/
+.order_list{
+    float: right;
+    width: 925px;
+    /*position: relative;*/
+}
+.order-l-title{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    line-height: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.order-l-title  li{
+    float: left;
+    font-size: 16px;
+    margin: 0 65px;
+}
+
+.order_list >div{
+    /*position: absolute;*/
+    display: none;
+}
+
+.order_list .all_order{
+    display: block;
+}
+.order_list >div:nth-of-type(2){
+    display: none;
+}
+/*全部订单板块*/
+.all_order .order_manage{
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 0 30px;
+}
+.all_order .order_manage img{
+    float: right;
+    width: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.all_order .order_detail{
+    height: 210px;
+    padding: 30px;
+}
+.all_order .order_detail p{
+    margin-right: 85px;
+    width: 85px;
+    height: 90px;
+    float: left;
+}
+.all_order .order_detail p:nth-of-type(2){
+    padding-top: 65px;
+}
+.all_order .order_detail >img{
+    margin-right: 15px;
+    float: left;
+}
+.all_order .order_detail p span,.all_order .order_detail p a{
+    display: block;
+    line-height: 35px;
+}
+
+.no_order{
+    text-align: center;
+    width: 100%;
+    line-height: 500px;
+    height: 700px;
+}
+
+
+.con_margin{
+    padding-top: 40px;
+}
+
+.order_pages ul{
+    float: right;
+    margin-bottom: 50px;
+}
+.order_pages ul li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(238, 238, 238);
+    margin-left: 8px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.page_style{
+    color: white;
+    background-color: rgb(249, 1, 1);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+/*banner图*/
+.banner {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/*香港版心*/
+.HK_w{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.HK_margin{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/*一层*/
+.HK-one >img{
+    float: left;
+}
+.HK-one >div{
+    float: right;
+    width: 420px;
+    padding-top: 80px;
+    text-align: right;
+}
+.HK-one >div h1{
+    line-height: 140px;
+}
+.HK-one >div p{
+    font-size: 14px;
+    text-align: left;
+}
+.HK-one >div a,.HK-three >div a{
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: rgb(250, 0, 1);
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+/*二层*/
+.HK-two >img{
+    float: right;
+}
+.HK-two >div{
+    float: left;
+    width: 420px;
+    padding-top: 60px;
+    text-align: left;
+}
+.HK-two >div h1{
+    line-height: 100px;
+}
+.HK-two >div ul{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.HK-two >div ul li span{
+    color: rgb(233, 0, 9);
+}
+.HK-two >div ul li{
+    line-height: 50px;
+}
+.HK-two >div >a{
+    color: rgb(233, 0, 9);
+    margin-right: 20px;
+}
+
+
+.HK_li{
+    overflow: hidden;
+}
+.HK_li li{
+    float: left;
+    margin:80px 10px 80px 0;
+
+}
+.HK_li li:last-of-type{
+    margin-right: 0px;
+}
+
+
+/*三层*/
+.HK-three{
+    overflow: hidden;
+}
+.HK-three >img{
+    float: left;
+}
+.HK-three >div{
+    width: 320px;
+    float: right;
+    text-align: right;
+}
+.HK-three >div h1{
+    line-height: 100px;
+}
+.HK-three >div ul li{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.HK-three >div ul li:nth-of-type(2n+1){
+    margin-right: 68px;
+}
+
+/*四层*/
+.HK-four{
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.HK-four .four_left{
+    float: left;
+}
+.HK-four .four_left h1{
+    line-height: 150px;
+}
+.HK-four .four_con{
+    float: right;
+    margin-top: 40px;
+}
+.HK-four .four_con p{
+    padding: 5px 0;
+    font-size: 14px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

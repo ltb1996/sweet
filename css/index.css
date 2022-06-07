@@ -1,0 +1,537 @@
+/*返回顶部*/
+.turn_top{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px lightsalmon;
+    display: none;
+}
+
+/* banner 板块 */
+
+.focus {
+    position: relative;
+    width: 1200px;
+    height: 370px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.focus ul li img {
+    width: 1200px;
+    height: 370px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    width: 40px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1;
+    color: white;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.circle li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: white;
+}
+
+
+/*推荐版块*/
+.recommend{
+    overflow: hidden;
+    height: 470px;
+}
+.rec_special{
+    height: 150px;
+}
+.rec_special ul{
+    padding-left: 305px;
+    padding-top: 25px;
+}
+.rec_special ul li{
+    float: left;
+    width: 196px;
+    height: 104px;
+}
+.rec_special ul li div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 50px;
+}
+.rec_special ul li p{
+    float: left;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.rec_list ul li{
+    float: left;
+    width: 285px;
+    margin-right: 20px;
+    position: relative;
+}
+.rec_list ul li:last-of-type{
+    margin-right: 0;
+}
+.rec_list ul li h3{
+    text-align: center;
+    line-height: 30px;
+    color: rgb(247, 2, 9);
+}
+.rec_list ul li span{
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+    color: white;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(247, 2, 9);
+    border-radius: 0 8px 0 8px;
+}
+.rec_list ul li p{
+    color: black;
+    text-align: center;
+}
+
+/*楼梯板块*/
+.f_title{
+    overflow: hidden;
+    height: 60px;
+    line-height: 75px;
+    margin: 50px 0 10px 0;
+}
+.f_title img{
+    float: left;
+    margin-right: 20px;
+}
+.f_title h1{
+    font-weight: normal;
+    float: left;
+}
+.f_title a{
+    float: right;
+}
+
+/*楼层导航*/
+.floor_nav{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: none;
+}
+.floor_nav ul li{
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background-color: lightpink;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px pink;
+    cursor: pointer;
+}
+.floor_nav ul li.current{
+    background-color: lightcoral;
+}
+
+#floor{
+    left: 0px !important;
+}
+
+/*一楼样式*/
+.f_first ul{
+    overflow: hidden;
+}
+.f_first ul li{
+    float: left;
+}
+.f_first ul li:first-of-type{
+    border: 1px solid rgb(192, 192, 192);
+    margin-right: 2px;
+}
+.f_first ul li:first-of-type a,.f_first ul li:last-of-type a{
+    display: inline-block;
+}
+.f_first ul li:nth-of-type(2){
+    width: 598px;
+}
+.f_first ul li:nth-of-type(2) a{
+    float: left;
+}
+.first_hover{
+    display: inline-block;
+    width: 299px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+}
+.first_hover img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.8s;
+}
+.first_hover:hover img{
+    transform: scale(1.1);
+}
+.f_first ul li a{
+    position: relative;
+}
+.f_first ul li a p{
+    height: 50px;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    background-color: rgba(247, 2, 9,.7);
+    position: absolute;
+    bottom: 15px;
+    left: 75px;
+}
+
+/*二楼样式*/
+.f_second{
+    overflow: hidden;
+    color: rgb(249, 2, 0);
+}
+.f_second >div:nth-of-type(2){
+    float: left;
+    position: relative;
+}
+.f_second >div:nth-of-type(2) h1{
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+    width: 80px;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+    border-top: 1px solid rgb(110, 110, 110);
+
+}
+.f_second ul{
+    width: 921px;
+    float: left;
+}
+.f_second ul li{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.f_second ul li p{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 62px;
+    height: 90px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+.f_second ul li p span{
+    position: absolute;
+
+    display: inline-block;
+    width: 54px;
+    height: 40px;
+    border-left: 1px solid black;
+
+}
+.f_second ul li p span:nth-of-type(1){
+    top: 7px;
+    left: 5px;
+}
+.f_second ul li p span:nth-of-type(2){
+    bottom: 7px;
+    left: 56px;
+}
+.niujiaobao{
+    line-height: 30px;
+}
+.f_second ul li img{
+    transition: transform .8s;
+}
+.f_second ul li img:hover{
+    transform: scale(1.1);
+}
+
+/*三楼样式*/
+.f_third{
+    overflow: hidden;
+}
+.f_third ol >li{
+    float: left;
+    position: relative;
+}
+.f_third ul{
+    margin: 0 4px;
+    width: 612px;
+}
+.f_third ul li{
+    float: left;
+    position: relative;
+}
+.f_third ol >li:nth-of-type(3) h1{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 32px;
+    color: rgb(250, 0, 2);
+}
+.f_third ol >li:nth-of-type(3) p{
+    position: absolute;
+    right: 52px;
+    top: 80px;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid rgb(84, 77, 69);
+    font-size: 16px;
+}
+.f_third ul li div{
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    left: 52px;
+    background-color: rgba(255,255,255,.7);
+    text-align: center;
+}
+.f_third ul li div span{
+    display: block;
+    margin: 5px 0 0 10px;
+    width: 180px;
+    height: 80px;
+    border: 1px solid rgb(145, 149, 148);
+}
+.f_third ul li div span h2{
+    color: rgb(250, 0, 2);
+    font-weight: normal;
+    line-height: 35px;
+}
+.f_third ul li div span i{
+    display: inline-block;
+    width: 50px;
+    height: 8px;
+    border-top: 1px solid rgb(145, 149, 148);
+}
+.f_third ul li{
+    overflow: hidden;
+}
+.f_third ul li img{
+    transition: transform .8s;
+}
+.f_third ul li img:hover{
+    transform: scale(1.1);
+}
+
+/*四楼样式*/
+.f_fourth{
+    overflow: hidden;
+}
+.f_fourth ul li:nth-of-type(1){
+    float: left;
+}
+.f_fourth ul li:nth-of-type(2){
+    width: 590px;
+    float: right;
+}
+.f_fourth ul li:nth-of-type(2) a:first-of-type{
+    margin-bottom: 20px;
+}
+.f_fourth ul li a{
+    display: block;
+    position: relative;
+}
+.f_fourth ul li a p{
+    width: 110px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,.8);
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(250, 0, 2);
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*五楼样式*/
+.f_fifth{
+    overflow: hidden;
+}
+.f_fifth ul{
+    margin-top: 20px;
+}
+.f_fifth ul li{
+    position: relative;
+    float: left;
+    margin-right: 22px;
+}
+.f_fifth ul li:last-of-type{
+    margin-right: 0px;
+}
+.f_fifth ul li p{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    height: 80px;
+    background-color: rgba(255,255,255,.7);
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: rgb(250, 0, 2);
+}
+
+/*六楼样式*/
+.f_sixth{
+    overflow: hidden;
+}
+.f_sixth ul li{
+    width: 590px;
+    height: 250px;
+    background-color: pink;
+    float: left;
+    margin-bottom: 20px;
+}
+.f_sixth ul li:nth-of-type(1){
+    background: url("../images/zhongqiu_03.jpg");
+}
+.f_sixth ul li:nth-of-type(2){
+    background: url("../images/six_05.jpg");
+}
+.f_sixth ul li:nth-of-type(3){
+    background: url("../images/six_09.jpg");
+}
+.f_sixth ul li:nth-of-type(4){
+    background: url("../images/six_11.jpg");
+}
+.f_sixth ul li:nth-of-type(3),.f_sixth ul li:nth-of-type(1){
+    margin-right: 20px;
+}
+.f_sixth ul li div{
+    float:right;
+    width: 290px;
+    padding-top: 65px;
+}
+.f_sixth ul li div h1{
+    color: white;
+    font-size: 36px;
+}
+.f_sixth ul li div p{
+    font-size: 36px;
+    color: rgb(123, 20, 21);
+}
+.f_sixth ul li div a{
+    display: block;
+    width: 140px;
+    height: 42px;
+    background-color: #fff;
+    font-size: 25px;
+    color: rgb(123, 20, 21);
+    padding-left: 5px;
+    line-height: 42px;
+    border-radius: 10px;
+    position: relative;
+}
+.f_sixth ul li div a::after{
+    content: '\e920';
+    font-family: icomoon;
+    position: absolute;
+    top: 3px;
+}
+
+/*精选专题样式*/
+.jingxuan{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.jingxuan h1{
+    font-size: 38px;
+}
+.jingxuan i{
+    display: inline-block;
+    border-top: 1px solid rgb(180, 180, 180);
+    width: 300px;
+}
+.jingxuan p{
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.jingxuan ul li{
+    float: left;
+}
+.jingxuan ul li:nth-of-type(1){
+    margin-right: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+.de_margin{
+    margin-top: 80px;
+}
+
+
+.de_price{
+    height: 640px;
+    /*background-color: lightgreen;*/
+    border-top: 1px solid rgb(210, 210, 210);
+}
+.de_p_top{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.de_p_top h1{
+    float: left;
+}
+.de_p_top p{
+    float: right;
+}
+.de_p_top p a{
+    font-size: 20px;
+    margin-right: 18px;
+}
+.de_p_smallimg{
+    width: 145px;
+}
+.de_p_smallimg,.de_p_bigimg,.de_p_guige{
+    float: left;
+}
+.de_p_smallimg img{
+    margin-bottom: 10px;
+}
+.de_p_bigimg{
+    margin-left: 10px;
+}
+.de_p_guige{
+    width: 480px;
+    height: 490px;
+    margin-left: 17px;
+}
+.de_p_guige >div{
+    overflow: hidden;
+}
+.de_p_guige >h1{
+    height: 50px;
+}
+.de_p_guige .de_p_tehui{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(238, 238, 238);
+    padding-left: 20px;
+}
+.de_p_guige .de_p_tehui h1{
+    height: 80px;
+    line-height: 80px;
+    color: rgb(247, 4, 0);
+}
+.de_p_guige .de_p_tehui h1 i{
+    color: rgb(72, 72, 72);
+    font-size: 12px;
+}
+.de_p_tehui p{
+    line-height: 35px;
+}
+.de_p_tehui .tehui1{
+    color: rgb(247, 4, 0);
+    font-size: 14px;
+}
+.de_p_tehui .tehui1 i{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(247, 4, 0);
+    margin-right: 10px;
+}
+.de_p_tehui .tehui2 i{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.de_p_style{
+    margin-top: 30px;
+}
+.de_p_style p,.de_p_style div,.de_p_count p,.de_p_count >ul{
+    float: left;
+}
+.de_p_style p,.de_p_count p{
+    width: 65px;
+    text-align: center;
+    line-height: 30px;
+}
+.de_p_style >div{
+    width: 415px;
+}
+.de_p_style >div a{
+    display: inline-block;
+    width: 82px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid rgb(210, 210, 210);
+    margin: 0 20px 18px 0;
+}
+.de_p_style >div a:hover{
+    border: 1px solid rgb(251, 0, 0);
+}
+.de_p_count ul{
+    border-left: 1px solid rgb(210, 210, 210);
+}
+.de_p_count ul li{
+    float: left;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 5px;
+    border: 1px solid rgb(210, 210, 210);
+    border-left: none;
+    cursor: pointer;
+}
+.de_p_count ul li input{
+    text-align: center;
+    width: 50px;
+    background-color: transparent;
+}
+.de_p_buy{
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.de_p_buy a{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border: 1px solid rgb(251, 0, 0);
+    border-radius: 10px;
+    margin-right: 25px;
+}
+.de_p_buy a:nth-of-type(1){
+    color: white;
+    background-color: rgb(251, 0, 0);
+}
+.de_p_buy a:nth-of-type(2){
+    color: rgb(251, 0, 0);
+}
+.de_p_buy span{
+    color: rgb(251, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.detail_title{
+    overflow: hidden;
+}
+.detail_title h1{
+    color: rgb(251, 0, 0);
+    float: left;
+}
+.detail_title h1 span{
+    color: #666666;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(251, 0, 0);
+    margin-right: 5px;
+    line-height: 20px;
+
+}
+.detail_title i{
+    float: right;
+    display: block;
+    width: 1000px;
+    height: 30px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+/*details板块*/
+.de_details{
+    height: 435px;
+    /*background-color: lightblue;*/
+}
+.de_details ul li{
+    font-size: 18px;
+    padding: 25px  0 25px 235px;
+    border-bottom: 1px dotted rgb(210, 210, 210);
+}
+.de_details ul li:last-of-type{
+    border-bottom: none;
+    width: 970px;
+}
+.de_details ul li i{
+    display: inline-block;
+    width: 510px;
+}
+.de_details ul li span{
+    margin-right: 40px;
+}
+/*商品起源板块*/
+.de_origin{
+    height: 710px;
+    /*background-color: lightcoral;*/
+}
+.de_origin img{
+    float: left;
+    margin: 74px 40px 0 50px;
+}
+.de_origin p{
+    float: left;
+    margin-top: 220px;
+    width: 508px;
+    height: 288px;
+    background: url("../images/detail-img/origin02_03.jpg");
+    font-size: 16px;
+    padding: 75px 22px 0 20px;
+}
+
+/*商品原料板块*/
+.de_ingredient{
+    height: 570px;
+    /*background-color: lightpink;*/
+}
+.de_ingredient img{
+    margin: 40px 0 0 185px;
+}
+
+/*商品展示板块*/
+.de_show_img{
+    margin: 50px 0;
+}
+.de_show_img img:first-of-type{
+    margin-bottom: 20px;
+}
+.de_show_img img:nth-of-type(2){
+    margin-right: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
